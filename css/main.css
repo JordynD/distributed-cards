@@ -11,8 +11,9 @@ html {
 body {
   margin: 0;
   background-color: #f5f2f0;
-  padding: 0 1rem;
+  padding: .125rem 1rem 0;
 }
+
 main ol {
   display: grid;
   grid-gap: 1rem;
@@ -33,23 +34,28 @@ main ol li {
   background-color: #ede3db;
 }
 
-li img {
+img {
   width: 100%;
 }
 
 li h2 {
-  margin-top: .5rem;
+  margin-top: 0;
 }
 
 h1, h2 {
-  font-family: Denk One, sans serif;
+  font-family: "Denk One", sans-serif;
   color: #623b0c;
 }
 
 li a {
   color: #fff;
   background-color: #623b0c;
-  text-decoration: 0;
+  text-decoration: none;
   padding: .5em .75em .6em;
   border-radius: 8px;
+}
+
+li p {
+  margin: 1.5rem 0;
+  align-self: flex-start;
 }
